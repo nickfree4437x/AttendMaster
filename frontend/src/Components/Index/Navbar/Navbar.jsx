@@ -52,7 +52,7 @@ const Navbar = () => {
 
         {/* Desktop Nav */}
         <div className="hidden lg:flex items-center space-x-8">
-          {["Home", "About", "Features", "Vision", "Contact"].map((item) => (
+          {["Home", "About", "Features", "Faq", "Contact"].map((item) => (
             <Link
               key={item}
               to={item.toLowerCase()}
