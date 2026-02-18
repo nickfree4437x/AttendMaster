@@ -41,7 +41,7 @@ const OurMission = () => {
   ];
 
   return (
-    <section className="bg-gray-900 dark:bg-indigo-50 py-20 px-4 sm:px-6 duration-1000">
+    <section className="bg-gray-900 dark:bg-indigo-50 py-20 px-4 sm:px-6 duration-1000" id="mission">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <span className="inline-block mb-3 text-sm font-medium px-4 py-1 rounded-full bg-blue-900/20 text-gray-300 dark:bg-blue-100 dark:text-blue-500">
