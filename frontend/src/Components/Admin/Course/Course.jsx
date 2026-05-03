@@ -99,7 +99,7 @@ const CourseForm = () => {
       try {
         const token = localStorage.getItem("token");
         await axios.put(
-          `http://localhost:5000/api/courses/${id}`,
+          `https://attendmaster.onrender.com/api/courses/${id}`,
           formValues,
           {
             headers: { Authorization: `Bearer ${token}` },

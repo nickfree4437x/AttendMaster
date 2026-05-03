@@ -99,7 +99,7 @@ const AddSubjectForm = () => {
 
     try {
       setIsLoading(true);
-      await axios.delete(`http://localhost:5000/api/subject/delete/${id}`, {
+      await axios.delete(`https://attendmaster.onrender.com/api/subject/delete/${id}`, {
         headers: { Authorization: `Bearer ${token}` },
       });
       showAlert("Deleted!", "Subject has been deleted.", "success");

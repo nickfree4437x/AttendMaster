@@ -114,7 +114,7 @@ npm start
 The app will now run on:
 
 * Frontend: `http://localhost:3000`
-* Backend: `http://localhost:5000`
+* Backend: `https://attendmaster.onrender.com`
 
 ---
 
